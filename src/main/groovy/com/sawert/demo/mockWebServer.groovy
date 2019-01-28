@@ -1,20 +1,17 @@
 package com.sawert.demo
 
+import com.sun.net.httpserver.HttpServer
+@picocli.CommandLine.Command(sortOptions = false)
+@picocli.groovy.PicocliScript
+
+import groovy.transform.Field
+
 //@Grapes([
 //    @Grab('info.picocli:picocli:3.9.1')
 //])
 
-@Command(sortOptions = false)
-@PicocliScript
-
-import groovy.transform.Field
 import picocli.CommandLine
-
-import picocli.CommandLine
-import picocli.CommandLine.Command
 import picocli.CommandLine.Option
-import picocli.groovy.PicocliScript
-import com.sun.net.httpserver.HttpServer
 
 def tempDir = System.properties.get('java.io.tmpdir')
 def userHome = System.properties.get('user.home')
@@ -31,7 +28,7 @@ def envHome = System.getenv("HOME")
 
 // meta class to add decoding
 String.metaClass.decodeURL = {
-    java.net.URLDecoder.decode(delegate, 'ISO-8859-1')
+    URLDecoder.decode(delegate, 'ISO-8859-1')
 }
 
 // meta class to add prefix

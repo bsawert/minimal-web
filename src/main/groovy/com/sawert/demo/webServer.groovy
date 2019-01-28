@@ -11,13 +11,13 @@ import com.sun.net.httpserver.*
 
 // only supports basic web content types
 final TYPES = [
-        "css": "text/css",
-        "gif": "image/gif",
-        "html": "text/html",
-        "jpg": "image/jpeg",
-        "js": "application/javascript",
-        "png": "image/png",
-        "svg": "image/svg+xml",
+    "css": "text/css",
+    "gif": "image/gif",
+    "html": "text/html",
+    "jpg": "image/jpeg",
+    "js": "application/javascript",
+    "png": "image/png",
+    "svg": "image/svg+xml",
 ]
 
 def props = System.properties

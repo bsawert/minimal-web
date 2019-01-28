@@ -15,7 +15,6 @@
 .classpath
 .factorypath
 .gradle
-.idea
 .swagger-codegen
 .metadata
 .project
@@ -35,6 +34,7 @@ dump.rdb
 interpolated*.xml
 lib/
 manifest.yml
+out/
 overridedb.*
 settings.xml
 target
