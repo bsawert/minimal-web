@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3db99f59-64f3-44f9-b6eb-2451c3ee3d4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/com/sawert/demo/mockWebServer.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/com/sawert/demo/mockWebServer.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/com/sawert/demo/webServer.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/com/sawert/demo/webServer.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/minimal-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/minimal-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/sawert/demo/mockWebServer.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
+            <state relative-caret-position="705">
               <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="e#25#65#0" expanded="true" />
@@ -26,10 +26,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/sawert/demo/minWebServer.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/com/sawert/demo/webServer.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="525">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -50,14 +59,16 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="3600" />
     <option name="y" value="23" />
-    <option name="width" value="1532" />
-    <option name="height" value="913" />
+    <option name="width" value="1348" />
+    <option name="height" value="781" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,8 +135,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,13 +142,14 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551886767230" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1362916" />
     <property name="project.structure.side.proportion" value="0.36886007" />
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.AboutConfigurable" />
@@ -222,17 +232,19 @@
       <workItem from="1551885949294" duration="859000" />
       <workItem from="1551887230636" duration="140000" />
       <workItem from="1554134071365" duration="204000" />
+      <workItem from="1557434605369" duration="37000" />
+      <workItem from="1557507632441" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4631000" />
+    <option name="totallyTimeSpent" value="4756000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3600" y="23" width="1532" height="913" extended-state="0" />
+    <frame x="3600" y="23" width="1348" height="781" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22684564" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21822359" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,14 +315,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/sawert/demo/webServer.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/sawert/demo/mockWebServer.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
+        <state relative-caret-position="705">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#25#65#0" expanded="true" />
@@ -347,7 +359,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>groovy-2.5.5</last-edited>
+          <last-edited>Groovy 2.5.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -359,7 +371,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8.0_181</last-edited>
+          <last-edited>JDK 1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -376,7 +388,6 @@
             <option name="proportions">
               <list>
                 <option value="0.36886007" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
