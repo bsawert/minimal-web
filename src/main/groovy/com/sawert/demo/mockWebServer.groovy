@@ -21,7 +21,7 @@ def envHome = System.getenv("HOME")
 @Field boolean helpRequested
 
 @Option(names = ["-p", "--port"], description = "Port number (default: 8080)")
-@Field int port = 8888
+@Field int port = 8080
 
 @Option(names = ["-c", "--context"], description = "Context path (default: /)", converter = SlashPrefixConverter)
 @Field String context = '/'
