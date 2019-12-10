@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3db99f59-64f3-44f9-b6eb-2451c3ee3d4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/com/sawert/demo/minWebServer.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/com/sawert/demo/minWebServer.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/groovy/com/sawert/demo/mockWebServer.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/com/sawert/demo/mockWebServer.groovy" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,6 +136,11 @@
       <workItem from="1571268294730" duration="1351000" />
       <workItem from="1571326662732" duration="4422000" />
       <workItem from="1571414126621" duration="1498000" />
+      <workItem from="1571439895297" duration="365000" />
+      <workItem from="1571678289672" duration="116000" />
+      <workItem from="1571698225566" duration="173000" />
+      <workItem from="1571712529635" duration="8000" />
+      <workItem from="1571783145047" duration="576000" />
     </task>
     <servers />
   </component>

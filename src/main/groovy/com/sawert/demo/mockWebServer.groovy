@@ -42,6 +42,7 @@ HttpServer.create(new InetSocketAddress(port), 0).with {
         println "\t${http.requestMethod}"
         def headers = http.requestHeaders
         headers.each { header -> println "\t${header.toString()}" }
+
         println "\nRequest Path:"
         def path = http.requestURI.path
         println "\t${path}"

@@ -7,7 +7,7 @@ import groovy.xml.XmlUtil
 import java.text.DateFormat
 
 def port = 8989
-def context = "/pm"
+def context = "/ca"
 def tempDir = System.properties.get('java.io.tmpdir')
 def userHome = System.properties.get('user.home')
 //def homeDir = System.getenv('HOME')
@@ -54,7 +54,7 @@ HttpServer.create(new InetSocketAddress(port), 0).with {
                 }
             }
         }
-        
+
         http.responseHeaders.add("Content-type", "text/plain")
         http.sendResponseHeaders(200, 0)
         http.responseBody.withWriter { out ->
